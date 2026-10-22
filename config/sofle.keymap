@@ -115,6 +115,10 @@
         };
     };
 };
+
+&enc_key_press {
+    triggers-per-rotation = <27>;
+};
 &inc_dec_kp {
     tap-ms = <40>;
 };
