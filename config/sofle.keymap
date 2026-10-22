@@ -126,6 +126,9 @@
         };
     };
 };
+&left_encoder  { resolution = <1>; };
+&right_encoder { resolution = <1>; };
+
 &{/sensors} {
     triggers-per-rotation = <27>;
 };
