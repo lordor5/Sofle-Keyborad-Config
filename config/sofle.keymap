@@ -123,9 +123,11 @@
             #sensor-binding-cells = <2>;
             bindings = <&kp>, <&kp>;
             tap-ms = <10>;
-            triggers-per-rotation = <27>;
         };
     };
+};
+&{/sensors} {
+    triggers-per-rotation = <27>;
 };
 &inc_dec_kp {
     tap-ms = <40>;
