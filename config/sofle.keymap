@@ -130,7 +130,7 @@
 &right_encoder { resolution = <1>; };
 
 &{/sensors} {
-    triggers-per-rotation = <27>;
+    triggers-per-rotation = <20>;
 };
 &inc_dec_kp {
     tap-ms = <40>;
