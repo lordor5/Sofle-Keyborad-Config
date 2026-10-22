@@ -116,7 +116,7 @@
     };
 };
 
-&enc_key_press {
+&inc_dec_kp {
     triggers-per-rotation = <27>;
 };
 &inc_dec_kp {
